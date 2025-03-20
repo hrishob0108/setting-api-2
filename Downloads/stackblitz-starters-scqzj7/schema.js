@@ -45,9 +45,3 @@ app.post('/api/users', async (req, res) => {
     res.status(500).json({ message: 'Error saving user to database', error: error.message });
   }
 });
-
-// Set up server
-const port = process.env.PORT || 5001;
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-});
