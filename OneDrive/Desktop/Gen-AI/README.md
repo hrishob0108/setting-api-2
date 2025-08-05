@@ -27,6 +27,7 @@ This separation ensures consistent tone, clarity, and expert-level communication
 - `max_tokens`: Restricts length of responses (e.g., to limit contract size).
 - `frequency_penalty` & `presence_penalty`: Reduce repetition, ensure new insights.
 
+These parameters tune the assistant to stay professional, clear, and relevant to the law.
 
 ---
 
